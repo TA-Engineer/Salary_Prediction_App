@@ -3,9 +3,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import altair as alt
-import pydeck as pdk
-import math
+
 import pickle
 
 from sklearn.preprocessing import StandardScaler
@@ -48,9 +46,6 @@ from sklearn.ensemble import ExtraTreesClassifier
 import matplotlib.pyplot as plt
 
 
-
-#!pip install folium
-#!pip install wget
 
 st.set_page_config(layout="wide")
 
