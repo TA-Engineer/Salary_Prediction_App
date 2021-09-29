@@ -16,8 +16,7 @@ from sklearn.metrics import make_scorer, r2_score, mean_squared_error, auc, mean
 import matplotlib.pyplot as plt
 
 import seaborn as sns
-import missingno as msno
-
+pip 
 from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import chi2
 import os
