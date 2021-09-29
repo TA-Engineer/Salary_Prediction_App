@@ -68,7 +68,7 @@ Salaries = load_data("Kaggle_Salary.csv")
 
 st.sidebar.header('User Input Features')
 
-if st.sidebar.checkbox('Raw Data Information', True): 
+if st.sidebar.checkbox('Raw Data Information', False): 
     ''' This is a Web App built using:
     - Streamlit
     - Scikit Learn
@@ -1079,5 +1079,5 @@ def show_predict_page():
         st.subheader(f"The estimated salary is ${salary[0]:.2f}")
 
 
-if st.sidebar.checkbox('Predict Annual Salaries'):
+if st.sidebar.checkbox('Predict Annual Salaries', True):
     show_predict_page()
