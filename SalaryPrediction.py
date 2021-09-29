@@ -50,6 +50,8 @@ st.markdown('# Web APP - Kaggle 2019 Data Survey')
 'By - Tushar Aggarwal, M.Eng - University of Toronto'
 'Github - https://github.com/TA-Engineer'
 
+' USE THE ARROW ON THE TOP LEFT TO OPEN MENU FOR DIFFERENT OPTIONS '
+
 
 
 
