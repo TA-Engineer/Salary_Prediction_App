@@ -79,12 +79,14 @@ if st.sidebar.checkbox('Raw Data Information', True):
 
     This Data Science web app explores the 2019 Kaggle Machine Learning and Data Science Survey of 19717 respondents from more than 171 countries. 
 
-    Through this project I have demonstrated data mining skills from data extraction, data cleaning, data exploratino & visualization to model prediction.
+    Through this project I have demonstrated data mining skills from data extraction, data cleaning, data exploration & visualization to model prediction.
 
 
     The Tabs on the left guide you through each stage of the project
 
-    The model predictor was a updated predictor which predicts data scienctist Salary based on few features compared to over 200+ in our dataset.
+    The machine learning salary model predictor is designed to predict a data scientist's annual salary 
+    based on few features compared to over 200+ in our dataset that we explored through this project.
+    This was done to ease the number of options that a user shall enter.
 
     
     '''
@@ -1076,5 +1078,5 @@ def show_predict_page():
         st.subheader(f"The estimated salary is ${salary[0]:.2f}")
 
 
-if st.sidebar.checkbox('Predict Software Engineer Salaries'):
+if st.sidebar.checkbox('Predict Annual Salaries'):
     show_predict_page()
