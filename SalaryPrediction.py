@@ -82,7 +82,7 @@ if st.sidebar.checkbox('Raw Data Information', True):
     Through this project I have demonstrated data mining skills from data extraction, data cleaning, data exploration & visualization to model prediction.
 
 
-    The Tabs on the left guide you through each stage of the project
+    The Tabs on the left guide you through each stage of the project.
 
     The machine learning salary model predictor is designed to predict a data scientist's annual salary 
     based on few features compared to over 200+ in our dataset that we explored through this project.
@@ -1006,6 +1006,7 @@ st.sidebar.markdown('For this Project Logistic Regression was Selected and was t
 option2 = st.sidebar.selectbox('Model Training Visualization ',['None','Model Training','Metrics'])
 
 if option2 == 'Model Training':
+    '## Learning Curve Images'
     st.image('Model 1.png')
     st.image('Model 2.png')
     st.image('Model 3.png')
