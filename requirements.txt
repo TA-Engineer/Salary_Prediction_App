@@ -9,7 +9,7 @@ pickleshare==0.7.5
 plotly==4.14.3
 
 scikit-learn==1.0
-scipy==1.5.3
+
 seaborn==0.11.0
 
 streamlit==0.87.0
