@@ -1002,14 +1002,14 @@ st.sidebar.markdown('For this Project Logistic Regression was Selected and was t
 option2 = st.sidebar.selectbox('Model Training Visualization ',['None','Model Training','Metrics'])
 
 if option2 == 'Model Training':
-    st.image('Model 1.PNG')
-    st.image('Model 2.PNG')
-    st.image('Model 3.PNG')
+    st.image('Model 1.png')
+    st.image('Model 2.png')
+    st.image('Model 3.png')
 
 if option2 == 'Metrics':
-    st.image('Accuracy.PNG')
-    st.image('Precision.PNG')
-    st.image('f1 Score.PNG')
+    st.image('Accuracy.png')
+    st.image('Precision.png')
+    st.image('f1 Score.png')
 
 
 st.sidebar.markdown('\n\n')
