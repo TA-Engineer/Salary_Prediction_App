@@ -8,40 +8,37 @@ import pickle
 
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
-from sklearn.model_selection import KFold
-from sklearn.metrics import make_scorer, confusion_matrix
-from sklearn.model_selection import learning_curve
-from sklearn.metrics import make_scorer, r2_score, mean_squared_error, auc, mean_absolute_error
+# from sklearn.model_selection import train_test_split
+# from sklearn.model_selection import KFold
+# from sklearn.metrics import make_scorer, confusion_matrix
+# from sklearn.model_selection import learning_curve
+# from sklearn.metrics import make_scorer, r2_score, mean_squared_error, auc, mean_absolute_error
 import matplotlib.pyplot as plt
 
-import seaborn as sns
-pip 
+import seaborn as sns 
 from sklearn.feature_selection import SelectKBest
-from sklearn.feature_selection import chi2
-import os
+# from sklearn.feature_selection import chi2
 
-from sklearn.model_selection import train_test_split
+# from sklearn.model_selection import train_test_split
 from sklearn.feature_selection import RFE
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn import linear_model
+# from sklearn.ensemble import RandomForestClassifier
+# from sklearn.feature_extraction.text import CountVectorizer
+# from sklearn import linear_model
 from sklearn.preprocessing import LabelEncoder
 
 from sklearn.feature_selection import RFE
-from sklearn.ensemble import GradientBoostingRegressor
-from sklearn.metrics import make_scorer, r2_score, mean_squared_error, auc, mean_absolute_error
-from sklearn.model_selection import GridSearchCV, KFold
+# from sklearn.ensemble import GradientBoostingRegressor
+# from sklearn.metrics import make_scorer, r2_score, mean_squared_error, auc, mean_absolute_error
+# from sklearn.model_selection import GridSearchCV, KFold
 # from sklearn.cross_validation import KFold # old version
 
-from sklearn.neural_network import MLPRegressor
+# from sklearn.neural_network import MLPRegressor
 import matplotlib.pyplot as plt
 import plotly.express as px
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
-from wordcloud import WordCloud, STOPWORDS
 
-from sklearn.ensemble import ExtraTreesClassifier
+# from sklearn.ensemble import ExtraTreesClassifier
 import matplotlib.pyplot as plt
 
 
